@@ -53,5 +53,6 @@ public class MyOwnAlgorithm {
         } else {
             System.out.println("Answer Invalid.");
         }
+        myObj.close();
     }
 }
