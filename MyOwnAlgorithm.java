@@ -31,6 +31,7 @@ public class MyOwnAlgorithm {
             System.out.println("STEP 9 - Time: 8:45 - Study Session 2 for 20 minutes!");
             System.out.println("STEP 10 - Time: 9:05 - Study Session 2 end. Time to conclude the day's study session!");
             System.out.println();
+            System.out.print("rawr");
             System.out.println("STEP 11 - Do you wish to continue studying or play Valorant? 1. Study , 2. Valorant");
 
             String Q2 = myObj.nextLine();
