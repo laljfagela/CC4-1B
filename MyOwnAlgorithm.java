@@ -14,6 +14,7 @@ public class MyOwnAlgorithm {
         System.out.println("Are you going home immediately? Yes or No? "); // Step 1: Going home
 
         String Q1 = myObj.nextLine();
+        
         // Condition 1 
         if (Q1.equalsIgnoreCase("Yes")) {
             System.out.println("STEP 2 - Time: 5:00 - 6:30 - Going Home!");
@@ -21,16 +22,24 @@ public class MyOwnAlgorithm {
             System.out.println();
             System.out.println("STEP 4 - Time: 6:45 - Change outdoor clothes to indoor clothes"); 
             System.out.println();
-            System.out.println("STEP 5 - Time: 6:55 - Study Session 1 for 45 minutes."); 
-            System.out.println("STEP 6 - Time: 7:40 - Study Session 1 End. Time to refresh!");
-            System.out.println();
+
+            for (int i = 1; i <=1; i++) {
+                System.out.println("STEP 5 - Time: 6:55 - Study Session 1 for 45 minutes."); 
+                System.out.println("STEP 6 - Time: 7:40 - Study Session 1 End. Time to refresh!"); // can be for loop
+                System.out.println(); 
+            }
+
             System.out.println("STEP 7 - Time: 7:45 - 8:20 - Dinner Time!"); 
             System.out.println();
             System.out.println("STEP 8 - Time: 8:25 - Time to do nightly routine!"); 
             System.out.println();
-            System.out.println("STEP 9 - Time: 8:45 - Study Session 2 for 20 minutes!");
-            System.out.println("STEP 10 - Time: 9:05 - Study Session 2 end. Time to conclude the day's study session!");
-            System.out.println();
+
+            for (int i = 1; i <=1; i++) {
+                System.out.println("STEP 9 - Time: 8:45 - Study Session 2 for 20 minutes!");
+                System.out.println("STEP 10 - Time: 9:05 - Study Session 2 end. Time to conclude the day's study session!"); // can be for loop
+                System.out.println();
+            }
+            
             System.out.println("STEP 11 - Do you wish to continue studying or play Valorant? 1. Study , 2. Valorant");
 
             String Q2 = myObj.nextLine();
