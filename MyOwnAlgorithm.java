@@ -6,10 +6,10 @@
 import java.util.Scanner; //imports the scanner 
 
 public class MyOwnAlgorithm {
-    public static int ctr = 0; 
+    public static int ctr = 0; //counter
     
     public static void main(String[]args) {
-        Scanner myObj = new Scanner(System.in);
+        Scanner myObj = new Scanner(System.in); ctr++;
 
         System.out.println("Lucci's After School Routine"); ctr++;
         System.out.println();ctr++;
@@ -17,12 +17,12 @@ public class MyOwnAlgorithm {
         System.out.println("Dismissal Time!");ctr++;
         System.out.println();ctr++;
         System.out.println("Are you going home immediately?");ctr++;
-        System.out.println("Yes or No? ");ctr++;// Step 1:Going home
+        System.out.println("Yes or No? ");ctr++;
 
         String Q1 = myObj.nextLine();ctr++;
         
         // Condition 1 
-        if (Q1.equalsIgnoreCase("Yes")) {
+        if (Q1.equalsIgnoreCase("Yes")) { //conditional
             System.out.println("STEP 2 - Time: 5:00 - 6:30"); ctr++;
             System.out.println("Going Home!"); ctr++;
             System.out.println();ctr++;
@@ -34,7 +34,7 @@ public class MyOwnAlgorithm {
             System.out.println();ctr++;
             
             ctr++;
-            for (int i = 1; i <=1; i++) {
+            for (int i = 1; i <=1; i++) { ctr++; ctr++; //for loop
                 System.out.println("STEP 5 - Time: 6:55");ctr++;
                 System.out.println("Study Session 1 for 45 minutes.");ctr++;
                 System.out.println();ctr++;
@@ -52,7 +52,7 @@ public class MyOwnAlgorithm {
             System.out.println();ctr++;
             
             ctr++;
-            for (int i = 1; i <=1; i++) {
+            for (int i = 1; i <=1; i++) { ctr++;ctr++;//for loop
                 System.out.println("STEP 9 - Time: 8:45");ctr++;
                 System.out.println("Study Session 2 for 20 minutes!");ctr++;
                 System.out.println();ctr++;
@@ -76,6 +76,8 @@ public class MyOwnAlgorithm {
                 System.out.println();ctr++;
                 System.out.println("STEP 12: Time: 10:30");ctr++;
                 System.out.println("Time to sleep!");ctr++;
+                System.out.println();ctr++;
+                System.out.println("See you tomorrow!");ctr++;
                 System.out.println("Zzzz Zzzz Zzzz Zzzz");ctr++;
                 System.out.println();ctr++;
 
@@ -85,15 +87,17 @@ public class MyOwnAlgorithm {
                 System.out.println();ctr++;
                 System.out.println("STEP 12: Time: 10:30");ctr++;
                 System.out.println("Time to sleep!");ctr++;
+                System.out.println();ctr++;
+                System.out.println("See you tomorrow!");ctr++;
                 System.out.println("Zzzz Zzzz Zzzz Zzzz");ctr++;
                 System.out.println();ctr++;
             }
 
         
-        } else if (Q1.equalsIgnoreCase("No")) {
+        } else if (Q1.equalsIgnoreCase("No")) { //conditional
             System.out.println("!!! Please go home and study !!!");ctr++;
         } else {
-            System.out.println("Answer Invalid.");ctr++;
+            System.out.println("Answer Invalid.");ctr++; //conditional
         }
         System.out.print(ctr);
         myObj.close();
