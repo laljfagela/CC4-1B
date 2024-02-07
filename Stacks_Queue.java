@@ -38,12 +38,12 @@ public class Stacks_Queue {
             System.out.println("1. Push");
             System.out.println("2. Pop");
             System.out.println("3. Finish");
-            System.out.print("Enter input: ");
+            System.out.print("Enter operation: ");
             operation = scanner.nextInt();
 
             if (operation == 1){
                 if (stack.size() < upperBound){
-                    System.out.println("Enter input: "); 
+                    System.out.print("Enter input: "); 
                     int input = scanner.nextInt(); 
 
                     stack.push(input);
@@ -76,12 +76,12 @@ public class Stacks_Queue {
             System.out.println("1. Enqueue");
             System.out.println("2. Dequeue");
             System.out.println("3. Finish");
-            System.out.print("Enter input: ");
+            System.out.print("Enter operation: ");
             operation = scanner.nextInt();
 
             if (operation == 1){
                 if (queue.size() < top){
-                    System.out.println("Enter value: "); 
+                    System.out.print("Enter input: "); 
                     int input = scanner.nextInt(); 
 
                     queue.add(input);
