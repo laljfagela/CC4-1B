@@ -180,7 +180,7 @@ public class AVL {
     }
     public void displayIndex() {
         int[] array = toArray();
-        System.out.print("\nCurrent Index and Values: [");
+        System.out.print("\n1D Array: [");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] +", ");
         }
@@ -192,7 +192,8 @@ public class AVL {
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
         while (choice != 3){
-            System.out.print("1. Insert\n2. Delete\n3. End\nEnter your choice: ");
+            System.out.println("AVL Trees");
+            System.out.println("1. Insert\n2. Delete\n3. End\nEnter your choice: ");
             choice = scanner.nextInt();
             if (choice == 1) {
                 System.out.print("Enter the value to insert: ");
@@ -217,11 +218,11 @@ public class AVL {
             }
         }
         avl.displayIndex();
-        System.out.println("\nPreorder traversal: ");
+        System.out.print("\nPreorder traversal: ");
         avl.preOrder(avl.root);
-        System.out.println("\n\nPostorder traversal: ");
+        System.out.print("\nPostorder traversal: ");
         avl.postOrder(avl.root);
-        System.out.println("\n\nInorder traversal: ");
+        System.out.print("\nInorder traversal: ");
         avl.inOrder(avl.root);
         System.out.println();
         System.out.print("Do you want to try again? (y/n): ");
@@ -230,7 +231,7 @@ public class AVL {
         if (tryAgain.equals("y")) {
             main(args);
         } else if (tryAgain.equals("n")){
-            System.out.println("Thank you for using the program.");
+            System.out.println("End.");
         } else {
             System.out.println("Invalid input.");
         }
